@@ -332,13 +332,6 @@ with col6:
     fig_intl.update_layout(
         height=340,
         xaxis=dict(title="", tickangle=-30, tickfont=dict(size=10)),
-        yaxis=dict(title="Receita (z-score)"),
+        yaxis=dict(title="Receita"),
     )
     st.plotly_chart(fig_intl, use_container_width=True, config={"displayModeBar": False})
-# ─── Footer ──────────────────────────────────────────────────────────────────
-st.markdown("""
-<div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #2a2d4a;
-            text-align: center; font-size: 11px; color: #374151;">
-    Sales Transaction v4a · Dataset padronizado (StandardScaler) · 128.059 registros · 4.861 transações únicas
-</div>
-""", unsafe_allow_html=True)
