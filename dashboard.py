@@ -163,10 +163,6 @@ st.markdown("""
     <h1 style="font-size: 32px; font-weight: 800; color: #f1f5f9; margin: 0; line-height: 1;">
         Sales Transaction Dashboard
     </h1>
-    <p style="margin: 8px 0 0 0; font-size: 13px; color: #6b7280;">
-        Período: <strong style="color:#94a3b8;">21 Out — 09 Dez 2019</strong> &nbsp;·&nbsp;
-        50 dias · 27 países · Dataset tratado e padronizado
-    </p>
 </div>
 """, unsafe_allow_html=True)
 
