@@ -173,22 +173,18 @@ st.markdown(f"""
     <div class="kpi-card">
         <div class="kpi-label">Transações Únicas</div>
         <div class="kpi-value">{df['TransactionNo'].nunique():,}</div>
-        <div class="kpi-sub">128.059 registros totais</div>
     </div>
     <div class="kpi-card">
         <div class="kpi-label">Faturamento Total</div>
         <div class="kpi-value">R$ {df['Total_Amount'].sum():,.3f}</div>
-        <div class="kpi-sub">z-score · valor padronizado</div>
     </div>
     <div class="kpi-card">
         <div class="kpi-label">Produtos Únicos</div>
         <div class="kpi-value">{df['ProductName'].nunique():,}</div>
-        <div class="kpi-sub">top 10 = maior fatia da receita</div>
     </div>
     <div class="kpi-card">
         <div class="kpi-label">Concentração UK</div>
         <div class="kpi-value">{uk_pct}%</div>
-        <div class="kpi-sub warn">das transações vêm do Reino Unido</div>
     </div>
 </div>
 """, unsafe_allow_html=True)
